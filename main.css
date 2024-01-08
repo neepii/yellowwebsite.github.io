@@ -41,9 +41,12 @@ header {
     background-color: snow;
     width: 750px;
     padding: 50px;
-    
-    padding-top: 5px;
+    padding-top: 20px;
 
+}
+.centervideo {
+    margin: 0 auto;
+    display:flex;
 }
 
 header h1 {
@@ -70,7 +73,7 @@ header h1 {
     padding-right: 200px;
     height: auto;
     font-family: 'Roboto Condensed', sans-serif;
-    text-indent: 40px;
+    text-indent: 15px;
     letter-spacing: 1px;
 }
 
