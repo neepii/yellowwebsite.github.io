@@ -2,33 +2,37 @@ html, body {
     margin: 0;
 }
 header {
-    border-bottom: 1px solid rgb(0,0,0,0.5);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: #fcc439;
     width: 100%;
     min-width: 850px;
     padding-bottom: 5px;
 }
-.home h1:hover{
-    color: rgb(53, 42, 74);
-    transition: 0.3s;
+.home h1 {
+    color: #373250;
 }
 .home {
     text-decoration: none;
 }
 
 .nav {
+    color: #FFF49E;
     float: left;
     margin-right: auto;
-    background-color: white;
+    background-color: #373250;
     width: 200px;
     padding-bottom: 50px;
     padding-top: 10px;
     padding-right: 40px;
     text-indent: 0;
     line-height: 20px;
+}
+.nav a{
+    color: #dddddd;
+    text-decoration: none;
+
 }
 .nav h1 {
     padding-left: 25px;
@@ -37,12 +41,19 @@ header {
     margin: 10px 0;
 }
 .hometext {
+    margin-top: 50px;
     margin-left: auto;
-    background-color: snow;
-    width: 750px;
+    background-color: #FFF49E;
+    font-size: larger;
+    width: 730px;
     padding: 50px;
-    padding-top: 20px;
-
+    padding-top: 50px;
+    height: 260px;
+}
+.hometext img {
+    position:relative;
+    margin: 5px;
+    float: right;
 }
 .centervideo {
     margin: 0 auto;
@@ -60,7 +71,7 @@ header h1 {
 }
 
 .bodytext {
-    background-color: rgb(237, 237, 237);
+    background-color: #efe1ba;
 }
 .withnav {
     margin-top: 5px;
@@ -152,7 +163,7 @@ footer {
     transition: 1s;
 }
 .headerlinks a:hover {
-    color: black;
+    color: #fe8f35;
 }
 
 .linktoart {
@@ -164,8 +175,8 @@ footer {
 #bigbutton
 {
     color: white;
-    background-color: lightgray;
-    border: 3px solid  lightgray;
+    background-color: #fe8f35;
+    border: 3px solid #fe8f35;
     border-radius: 19px;
     padding: 15px;
     transition: 0.3s;
