@@ -172,6 +172,9 @@ header h1 {
     background-color: rgb(0, 0, 0, 0.2);
     padding: 15px;
 }
+.text div {
+    padding: 9px;
+}
 
 .text table {
     border-collapse: collapse;
